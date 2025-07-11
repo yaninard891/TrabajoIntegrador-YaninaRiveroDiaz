@@ -1,4 +1,4 @@
-let item={};
+let item= [];
 
 const formulario= document.getElementById("formulario");
 const inputTexto= document.getElementById("input-texto");
@@ -14,7 +14,8 @@ formulario.addEventListener("submit", (e) => {
     e.preventDefault();
     const texto = input.value.trim();
     if (texto === "") return;
-        item.push(texto);
-        input.value = "";
-        mostrarlista();
+        
+    item.push(texto);
+    input.value = "";
+    mostrarlista();
     })
