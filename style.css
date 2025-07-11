@@ -1,0 +1,36 @@
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+form {
+    margin-bottom: 20px;
+
+}
+
+input,
+button {
+    font-size: 16px;
+    padding: 10px;
+
+}
+
+.tarjeta {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #cebad6;
+}
+
