@@ -34,3 +34,15 @@ button {
     background-color: #cebad6;
 }
 
+
+
+ .limpiar-todo {
+            background-color: #ec867a;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 20px 0;
+            font-size: 16px;
+        } 
