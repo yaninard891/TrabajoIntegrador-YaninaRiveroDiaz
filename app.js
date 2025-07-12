@@ -6,16 +6,16 @@ const lista= document.getElementById("lista");
 
 const mostrarlista = () => { 
     lista.innerHTML = item.map((item) => 
-        '<div class="tarjeta"> ${item} </div>').join("");
+        `<div class="tarjeta"> ${item} </div>`).join("");
 
     };
 
 formulario.addEventListener("submit", (e) => {
     e.preventDefault();
-    const texto = input.value.trim();
+    const texto = inputTexto.value.trim();
     if (texto === "") return;
         
     item.push(texto);
-    input.value = "";
+    inputTexto.value = "";
     mostrarlista();
     })
